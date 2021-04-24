@@ -1,0 +1,7 @@
+git check out/ git switch
+- đều dùng để chuyển nhánh 
+- git checkout có thể phục hồi file trong thư mục từ một commit trước
+- git switch chuyển nhánh và có thể tạo nhánh mới từ một commit 
+
+
+
