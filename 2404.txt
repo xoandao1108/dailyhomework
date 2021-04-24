@@ -1,0 +1,2 @@
+khi merge branchB vào branchA thì lịch sử commit của branch A là 
+commit1-commit2-commit3-commit4
