@@ -1,0 +1,4 @@
+2.1: khi merge cần có commit, vậy commit này có được log trên nhánh đích(branchA)
+2.2: khi checkout branchB từ branchA có commit 1, sau đó một thời gian branchA có 2 commit(commit-commit2), branchB có 3 commit(commit1-commit3-commit4)
+khi merge B vào A thứ tự commit có phụ thuộc vào commit 2,3,4
+=>> thứ tự commit trên branchA: commit1 -commit2-commit3-commit4-"merge commit"
