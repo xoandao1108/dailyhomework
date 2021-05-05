@@ -1,0 +1,45 @@
+What ?
+ OOP là gì?
+-OOP (viết tắt của Object Oriented Programming) – lập trình hướng đối tượng là một phương pháp lập trình dựa trên khái niệm về lớp và đối tượng. OOP tập trung vào các đối tượng thao tác hơn là logic để thao tác chúng.
+- Đối tượng (Object)
+Đối tượng trong OOP bao gồm 2 thành phần chính:
++Thuộc tính (Attribute): là những thông tin, đặc điểm của đối tượng
++Phương thức (Method): là những hành vi mà đối tượng có thể thực hiện
+-Lớp (Class)
+Lớp là sự trừu tượng hóa của đối tượng. Những đối tượng có những đặc tính tương tự nhau sẽ được tập hợp thành một lớp. Lớp cũng sẽ bao gồm 2 thông tin là thuộc tính và phương thức.
+- 4 đặc tính cơ bản của oop: tính kế thừa, tính đa hình, tình trừu tượng, tính đóng gói.
+
+
+When?
+OOP được sử dụng khi nào ?
+Khi chúng ta thực hiện một project hay dự án nào đó, chúng ta luôn mong muốn xây dựng được source code mà chúng ta có thể đọc hiểu một cách nhanh chóng và dễ dàng phát triển cho sau này. 
+
+
+Why ?
+Tại sao lại sử dụng OOP?
+-Người dùng có thể dễ dàng quản lý code khi có sự thay đổi chương trình. 
+-Dễ dàng mở rộng dự án.
+-Giúp lập trình viên tiết kiệm tài nguyên đáng kể cho hệ thống.
+-OOP có tính bảo mật cao và có khả năng tái sử dụng.
+
+Where?
+-OOP sử dụng các ngôn ngữ sau để hoạt động: Java, Javascript, Python,PHP, C++,...
+
+
+Who ?
+Những ai có thể sử dụng lập trình hướng đối tượng?
+- Bất kì lập trình viên nào có kiến thức và kĩ năng về OOP đều có thể sử dụng để tối ưu hoá việc code
+
+How ?
+Giải quyết bài toán theo OOP như thế nào ?
+-Việc đóng gói dữ liệu được thực hiện theo phương pháp trừu tượng hoá đối tượng thành lớp từ thấp lên cao như sau:
+
++Thu thập các thuộc tính của mỗi đối tượng, gắn các thuộc tính vào đối tượng tương ứng.
+
++Nhóm các đối tượng có các thuộc tính tương tự nhau thành nhóm, loại bỏ bớt các thuộc tính cá biệt, chỉ giữ lại các thuộc tính chung nhất. Đây được gọi là quá trình trừu tượng hoá đối tượng thành lớp.
+ 
++Đóng gói dữ liệu của các đối tượng vào lớp tương ứng. Mỗi thuộc tính của đối tượng trở thành một thuộc tính của lớp tương ứng.
+
++Việc truy nhập dữ liệu được thực hiện thông qua các phương thức được trang bị cho lớp. Không được truy nhập tự do trực tiếp đến dữ liệu.
+
++Khi có thay đổi trong dữ liệu của đối tượng, ta chỉ cần thay đổi các phương thức truy nhập thuộc tính của lớp, mà không cần phải thay đổi mã nguồn của các chương trình sử dụng lớp tương ứng.
