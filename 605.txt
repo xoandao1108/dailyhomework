@@ -1,0 +1,5 @@
+Trong gitflow, khi một nhánh hotfix được tạo, sau khi fix xong lỗi thì nó sẽ được merge vào những nhánh nào và lý do vì sao lại cần merge vào những nhánh đó.
+
+Trong gitflow, khi một nhánh hotfix được tạo thì nó sẽ được merge vào nhánh master và nhánh develop với lí do:
+- Merge vào nhánh master nhằm sửa nhanh các lỗi để phục vụ cho khách hàng, tránh việc mất thời gian.
+- Để tránh gặp các lỗi cần fix tương tự cho quá trình phát triển sau này, cần merge vào nhánh develop. 
